@@ -93,3 +93,27 @@ Crie um script que adicione uma coluna “em_atividade” para os médicos, indi
 
 Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
 
+# PARTE 5 - As Relíquias dos Dados
+
+<strong>Mãos a obra
+Crie um script e nele inclua consultas que retornem:</strong>
+<ol>
+<li>Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.</li>
+<li> Todos os dados das internações que tiveram data de alta maior que a data prevista para a alta.</li>
+<li>Receituário completo da primeira consulta registrada com receituário associado.</li>
+<li>Todos os dados da consulta de maior valor e também da de menor valor (ambas as consultas não foram realizadas sob convênio).</li>
+<li>Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diária do quarto e o número de dias entre a entrada e a alta.</li>
+<li>Data, procedimento e número de quarto de internações em quartos do tipo “apartamento”.</li>
+<li>Nome do paciente, data da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por data de realização da consulta.</li>
+<li>Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.</li>
+<li>Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um realizou.</li>
+<li>Todos os médicos que tenham "Gabriel" no nome. </li>
+<li>Os nomes, CREs e número de internações de enfermeiros que participaram de mais de uma internação.</li>
+</ol>
+
+<strong>Observação 1: se necessário, inclua novos registros no banco de dados para testar adequadamente.  </strong>
+
+<strong>Observação 2: podem ser úteis as funções de data do MySQL, como DATEDIFF(data1, data2) para número de dias entre duas datas, CURDATE() ou NOW() para data atual, DATE(dataehora) para extrair a data de um “datetime”, YEAR(data) para o ano de uma data, TIMESTAMPDIFF(YEAR, data1, data2) para número de anos entre duas datas, entre outras. 
+Consulte a documentação do MySQL (“Date and Time Functions”) para mais informações.</strong>
+
+
